@@ -6,7 +6,7 @@ import { Button } from '@mui/material';
 export const ContainedButtons = () => {
   const primary = lime[900];
   return (
-    <SampleButton sx={(color = { primary })} variant="contained">
+    <SampleButton  variant="contained">
       Contained
     </SampleButton>
   );

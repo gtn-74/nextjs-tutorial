@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <body >{children}</body> */}
-      <CssBaseline />
+      
       <body className={`${inter.className}`}>{children}</body>
     </html>
   );
